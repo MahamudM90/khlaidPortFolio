@@ -1,0 +1,44 @@
+
+
+
+:root{
+    --primary-color : rgb(255, 255, 255);
+}
+.header-wrapper{
+    position: relative;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background:url(../../Assest/imges/code.png);
+}
+.main-info{
+    font-size: 3.5rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Condensed" sans-serif;
+}
+.main-info h1{
+    text-transform: uppercase;
+}
+.react-typeing{
+    font-size: 2.5rem;
+    color: var(--primary-color) !important;
+}
+@media(max-width : 425px) {
+    .react-typeing{
+        font-size: 1.5rem;
+        color: var(--primary-color) !important;
+    }
+    .btn{
+        font-size: 11px;
+        padding: 4px 6px;
+    }
+  }
