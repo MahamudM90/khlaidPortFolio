@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 body{
     font-family: "Roboto Condensed" sans-serif;
@@ -7,13 +8,16 @@ body{
     --primary-white : rgb(255, 255, 255);
     --primary-orange: orange;
     --primary-dark: rgba(255 , 255 , 255 , 0);
+    --primary-brandColor:yellow ;
+    --primary-green:rgb(0, 255, 34) ;
+    --primary-black : black ;
+    --primary-facebook :rgb(8, 74, 255);
+    --primary-instagram :rgb(102, 15, 129);
+    --primary-linkedin :rgb(17, 74, 165);
+    --primary-twitter : rgb(0, 109, 182);
+    --primary-gamil : rgb(204, 72, 72);
 }
-.myLogo{
-    width: 3.25rem;
-    border-radius: 50%;
-    border-left: 2px solid white;
-    border-right: 2px solid rgb(0, 255, 34);
-}
+
 .navbarFonts{
     text-transform: uppercase;
 }
@@ -38,20 +42,105 @@ body{
   width: 100vw;
   z-index: 1;
 }
-.myNav{
+/* // -------------ICONS------- */
+.myNav , .icons{
   z-index: 2;
 }
-
-@media(max-width : 768px) {
-  
+.icons > a {
+  color: aliceblue;
+  padding: 5px;
+  font-size: 2.3rem;
 }
+#github :hover {
+  color: var(--primary-black);
+}
+#facebook :hover {
+  color: var(--primary-facebook);
+}
+#instagram :hover {
+  color: var(--primary-instagram);
+}
+#linkedin :hover {
+  color: var(--primary-linkedin);
+}
+#twitter :hover {
+  color: var(--primary-twitter);
+}
+#stackOverflow:hover {
+  color: var(--primary-orange);
+}
+#gamil:hover {
+  color: var(--primary-gamil);
+}
+
+/*--------------- brandds */
+.brand > h4{
+  border-top: 0.1875rem solid var(--primary-dark);
+  color: var(--primary-orange);
+  font-family: "Dancing Script";
+}
+/* -----gretting subtitle */
+.greetingSubtitle{
+  font-size: 1.5rem;
+  max-width: 31.25rem;
+  letter-spacing: 0.0625rem;
+}
+/*  ------------media quary - */
+
+@media(max-width : 1024px) {
+  .main-info h1{ 
+    font-size: 3.2rem;
+  }
+  .brand > h4{
+    border-top: 0.1875rem solid var(--primary-dark);
+    color: var(--primary-green);
+    font-size: 1.9rem;
+    font-family: "Dancing Script";
+  }
+  .greetingSubtitle{
+    font-size: 1.5rem;
+    max-width: 30.25rem;
+    letter-spacing: 0.0625rem;
+  }
+  .myNav button {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}
+/* skill icons  */
+#skillIcons{
+  font-size: 2rem;
+}
+#skillIcons :hover{
+  color: var(--primary-orange);
+}
+/* LOTTIES */
+
 @media(max-width : 425px) {
   .main-info h1{ 
     font-size: 2rem;
+  }
+  .brand > h4{
+    border-top: 0.1875rem solid var(--primary-dark);
+    color: var(--primary-green);
+    font-size: 1rem;
+    font-family: "Dancing Script";
+  }
+  .greetingSubtitle{
+    font-size: 1rem;
+    max-width: 20.25rem;
+    letter-spacing: 0.0625rem;
   }
 }
 @media(max-width : 320px) {
   .main-info h1{ 
     font-size: 1.5rem;
+  }
+}
+@media(max-width : 768px) {
+  .lottie{ 
+    width: 100%;
+    border: 1px solid red;
+    left: 0;
   }
 }

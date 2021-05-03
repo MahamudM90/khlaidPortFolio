@@ -4,11 +4,15 @@ import HeaderNavbar from './Components/Navbar/HeaderNavbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header'
 import Particles from 'react-particles-js';
+import DisplayLotti from './Components/DisplayLotti/DisplayLotti';
+import Skill from './Components/Skills/Skill';
+import SkillProgreess from './Components/SkillProgreess/SkillProgreess';
+import Exprience from './Components/Exprience/Exprience';
 
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Particles
         params={{
           particles: {
@@ -31,6 +35,9 @@ function App() {
       />
       <HeaderNavbar />
       <Header />
+      <Skill/>
+      <SkillProgreess/>
+      <Exprience/>
     </div>
   );
 }

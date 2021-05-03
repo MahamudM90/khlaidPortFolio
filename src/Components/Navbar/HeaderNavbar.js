@@ -9,8 +9,10 @@ const HeaderNavbar = () => {
     return (
         <Navbar className="myNav" bg="dark" expand="lg" >
             <div className="container">
-                <Navbar.Brand href="#home" className="navbarColors">
-                    <img src={myLogo} className="myLogo" alt="" />
+                <Navbar.Brand href="#home" className="navbarColors brand">
+                    <h4>
+                    <span>&#60;</span> MD KHALID HOSSAON &#47; <span>&#62;</span>
+                    </h4>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ color: 'white' }}>
                     <FontAwesomeIcon icon={faBars} />
