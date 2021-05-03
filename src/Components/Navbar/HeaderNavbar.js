@@ -21,8 +21,11 @@ const HeaderNavbar = () => {
 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto navbarFonts">
-                        <Nav.Link href="#home" className="navbarColors ml-3 link">Home</Nav.Link>
-                        <Nav.Link href="#link" className="navbarColors ml-3 link" >Link</Nav.Link>
+                        <Nav.Link href="#contact" className="navbarColors ml-3 link">Contact me</Nav.Link>
+                        <Nav.Link href="#resume" className="navbarColors ml-3 link" >Resume</Nav.Link>
+                        <Nav.Link href="#blog" className="navbarColors ml-3 link" >Blog</Nav.Link>
+                        <Nav.Link href="#skill" className="navbarColors ml-3 link" >skill</Nav.Link>
+                        <Nav.Link href="#exprience" className="navbarColors ml-3 link" >Work exprience</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </div>

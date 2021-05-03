@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 const Skill = () => {
     console.log(skills);
     return (
-        <div className="mt-5 mb-5 container">
+        <div className="mt-5 mb-5 container" id="skill">
             <div className="row">
                 <Fade>
                     <div className="col-md-5">

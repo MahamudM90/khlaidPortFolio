@@ -6,7 +6,7 @@ import ExpricenceCard from '../ExpricenceCard/ExpricenceCard';
 const Exprience = () => {
 
     return (
-        <div className="container mb-5">
+        <div className="container mb-5" id="exprience">
             <h2 className="text-uppercase mb-3">Projects</h2>
             <div className="row d-sm-flex justify-content-sm-center align-items-sm-center d-flex justify-content-center align-items-center">
                 {

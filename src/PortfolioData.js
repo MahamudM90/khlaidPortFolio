@@ -139,6 +139,13 @@ const blogs = {
       desc: 'For those of us who are completely new to programming, the first thing we need to know that what is variables? You can imagine that variable is a kind of box that you can declare any right place for your needs and can save any kind of value(array, string, number, bullian, object, function) inside this variable. for example, you are saying that “Mc Jhon is a good boy.'
     }
   ]
+};
+
+const contactData = {
+  title : "Contact Me",
+  desc : 'DISCUSS OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.',
+  phone : "+86 18579191038",
+  email : "zikaiwen02@gmail.com",
 }
 
 export {
@@ -147,5 +154,6 @@ export {
   skills,
   techStack,
   experience,
-  blogs
+  blogs,
+  contactData
 }

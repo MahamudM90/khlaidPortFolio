@@ -9,6 +9,9 @@ import Skill from './Components/Skills/Skill';
 import SkillProgreess from './Components/SkillProgreess/SkillProgreess';
 import Exprience from './Components/Exprience/Exprience';
 import Blogs from './Components/Blogs/Blogs';
+import ContactMe from './Components/ContactMe/ContactMe';
+import Footer from './Components/Footer/Footer';
+import ContactForm from './Components/ContactForm/ContactForm';
 
 
 function App() {
@@ -40,6 +43,9 @@ function App() {
       <SkillProgreess/>
       <Exprience/>
       <Blogs/>
+      <ContactMe/>
+      <ContactForm/>
+      <Footer/>
     </div>
   );
 }

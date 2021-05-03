@@ -16,6 +16,7 @@ body{
     --primary-linkedin :rgb(17, 74, 165);
     --primary-twitter : rgb(0, 109, 182);
     --primary-gamil : rgb(204, 72, 72);
+    --primary-gray : rgb(194, 191, 191);
 }
 
 .navbarFonts{
@@ -47,7 +48,6 @@ body{
   z-index: 2;
 }
 .icons > a {
-  color: aliceblue;
   padding: 5px;
   font-size: 2.3rem;
 }
@@ -118,7 +118,15 @@ body{
 .blogLinks:hover{
   text-decoration: none;
 }
+/* contact me  */
+.text-body > p , .text-body > p > a {
+  letter-spacing : .015rem;
 
+}
+.text-body > p > a:hover {
+  text-decoration: none;
+  text-shadow:2px 2px 5px var(--primary-gray);
+}
 @media(max-width : 425px) {
   .main-info h1{ 
     font-size: 2rem;

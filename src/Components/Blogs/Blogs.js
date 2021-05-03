@@ -5,7 +5,7 @@ import BlogsCard from '../BlogsCard/BlogsCard';
 
 const Blogs = () => {
     return (
-        <div className="container mb-5 ">
+        <div className="container mb-5 " id="blog">
             <h2 className="text-uppercase">{blogs.title}</h2>
             <p className="text-uppercase">{blogs.subTitle}</p>
             <div className="row">

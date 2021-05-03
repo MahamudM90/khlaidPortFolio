@@ -31,7 +31,7 @@ const Header = () => {
                 />
                 <p className="greetingSubtitle text-white">{greeting.subTitle}</p>
                 <div className="mainOffer d-flex myNav">
-                    <a href="#" className="mr-2">
+                    <a href="#contact" className="mr-2">
                         <button className="btn btn-lg btn-outline-warning">
                             Contact me
                         </button>
@@ -45,28 +45,28 @@ const Header = () => {
                 </div>
                 <div className="icons d-flex">
                     {
-                        socialMediaLinks.github && <a id="github" href={socialMediaLinks.github}
+                        socialMediaLinks.github && <a className="text-white" id="github" href={socialMediaLinks.github}
                         target= "_blank" 
                         >
                             <FontAwesomeIcon icon={['fab', 'github']} />
                         </a>
                     }
                     {
-                        socialMediaLinks.facebook && <a id="facebook" href={socialMediaLinks.facebook}
+                        socialMediaLinks.facebook && <a className="text-white" id="facebook" href={socialMediaLinks.facebook}
                         target= "_blank" 
                         >
                             <FontAwesomeIcon icon={['fab', 'facebook']} />
                         </a>
                     }
                     {
-                        socialMediaLinks.instagram && <a id="instagram" href={socialMediaLinks.instagram}
+                        socialMediaLinks.instagram && <a className="text-white" id="instagram" href={socialMediaLinks.instagram}
                         target= "_blank" 
                         >
                             <FontAwesomeIcon icon={['fab', 'instagram']} />
                         </a>
                     }
                     {
-                        socialMediaLinks.linkedin && <a id="linkedin" href={socialMediaLinks.linkedin}
+                        socialMediaLinks.linkedin && <a className="text-white" id="linkedin" href={socialMediaLinks.linkedin}
                         target= "_blank" 
                         >
                             <FontAwesomeIcon icon={['fab', 'linkedin']} />
@@ -74,22 +74,22 @@ const Header = () => {
                     }
                     
                     {
-                        socialMediaLinks.twitter && <a id="twitter" href={socialMediaLinks.twitter}>
+                        socialMediaLinks.twitter && <a className="text-white" id="twitter" href={socialMediaLinks.twitter}>
                             <FontAwesomeIcon icon={['fab', 'twitter']} />
                         </a>
                     }
                     {
-                        socialMediaLinks.stackoverflow && <a id="stackOverflow" href={socialMediaLinks.stackoverflow}>
+                        socialMediaLinks.stackoverflow && <a className="text-white" id="stackOverflow" href={socialMediaLinks.stackoverflow}>
                             <FontAwesomeIcon icon={['fab', 'stack-overflow']} />
                         </a>
                     }
                     {
-                        socialMediaLinks.gmail && <a id="gamil" href={`mailto:${socialMediaLinks.gmail}`}>
+                        socialMediaLinks.gmail && <a className="text-white" id="gamil" href={`mailto:${socialMediaLinks.gmail}`}>
                             <FontAwesomeIcon icon={['fab', 'google']} />
                         </a>
                     }
                     {
-                        socialMediaLinks.medium && <a id="medium" href={socialMediaLinks.medium}>
+                        socialMediaLinks.medium && <a className="text-white" id="medium" href={socialMediaLinks.medium}>
                             <FontAwesomeIcon icon={['fab', 'medium']} />
                         </a>
                     }
