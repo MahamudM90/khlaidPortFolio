@@ -98,38 +98,54 @@ const techStack = [
 
 
 const experience = [
-  
-    {
-      role: "Software Engineer",
-      company: "Pustok",
-      companylogo: " ",
-      date: "20 Feb 2021 – 25 Feb 2021",
-      desc:
-        "I have maintained the backend and api",
-    },
-    {
-      role: "Designer and Developer",
-      company: "Didi Chaoxing",
-      companylogo: "",
-      date: "January 2021 – February 2021",
-      desc:
-        "I lead myself building the API for this Ride Sharing application"
-    },
-    {
-      role: "Designer",
-      company: "Bd Crick time",
-      companylogo: "",
-      date: "November 2018 – July 2019",
-      desc:
-        "I have designed all of this site's"
-    }
-  ];
 
+  {
+    role: "Software Engineer",
+    company: "Pustok",
+    companylogo: " ",
+    date: "20 Feb 2021 – 25 Feb 2021",
+    desc:
+      "I have maintained the backend and api",
+  },
+  {
+    role: "Designer and Developer",
+    company: "Didi Chaoxing",
+    companylogo: "",
+    date: "January 2021 – February 2021",
+    desc:
+      "I lead myself building the API for this Ride Sharing application"
+  },
+  {
+    role: "Designer",
+    company: "Bd Crick time",
+    companylogo: "",
+    date: "November 2018 – July 2019",
+    desc:
+      "I have designed all of this site's"
+  }
+];
+const blogs = {
+  title: "Blogs",
+  subTitle: "with love for developing cool stuff , I love to write and tech others what i have learnt",
+  blogs: [
+    {
+      url: 'https://shakil27512.medium.com/five-java-script-fundamentals-that-you-need-to-know-d3e6f6dbdb8a',
+      title: 'Five Java Script Fundamentals that you need to know',
+      desc: 'For those of us who are completely new to programming, the first thing we need to know that what is variables? You can imagine that variable is a kind of box that you can declare any right place for your needs and can save any kind of value(array, string, number, bullian, object, function) inside this variable. for example, you are saying that “Mc Jhon is a good boy.'
+    },
+    {
+      url: 'https://shakil27512.medium.com/five-java-script-fundamentals-that-you-need-to-know-d3e6f6dbdb8a',
+      title: 'Five Java Script Fundamentals that you need to know ',
+      desc: 'For those of us who are completely new to programming, the first thing we need to know that what is variables? You can imagine that variable is a kind of box that you can declare any right place for your needs and can save any kind of value(array, string, number, bullian, object, function) inside this variable. for example, you are saying that “Mc Jhon is a good boy.'
+    }
+  ]
+}
 
 export {
   socialMediaLinks,
   greeting,
   skills,
   techStack,
-  experience
+  experience,
+  blogs
 }

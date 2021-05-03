@@ -8,6 +8,7 @@ import DisplayLotti from './Components/DisplayLotti/DisplayLotti';
 import Skill from './Components/Skills/Skill';
 import SkillProgreess from './Components/SkillProgreess/SkillProgreess';
 import Exprience from './Components/Exprience/Exprience';
+import Blogs from './Components/Blogs/Blogs';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <Skill/>
       <SkillProgreess/>
       <Exprience/>
+      <Blogs/>
     </div>
   );
 }

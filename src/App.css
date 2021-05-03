@@ -115,6 +115,9 @@ body{
   color: var(--primary-orange);
 }
 /* LOTTIES */
+.blogLinks:hover{
+  text-decoration: none;
+}
 
 @media(max-width : 425px) {
   .main-info h1{ 
@@ -137,10 +140,4 @@ body{
     font-size: 1.5rem;
   }
 }
-@media(max-width : 768px) {
-  .lottie{ 
-    width: 100%;
-    border: 1px solid red;
-    left: 0;
-  }
-}
+

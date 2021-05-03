@@ -15,8 +15,6 @@ const DisplayLotti = () => {
         <div >
             <Lottie options={defaultOptions}
                 className="lottie"
-                height={350}
-                width={500}
                 />
         </div>
     );

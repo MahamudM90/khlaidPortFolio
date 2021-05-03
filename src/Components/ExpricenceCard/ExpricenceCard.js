@@ -53,7 +53,7 @@ const ExpricenceCard = ({ exprience }) => {
     console.log(exprience);
 
     return (
-        <div className="col-md-4">
+        <div className="col-md-4 col-12 col-sm-10 mb-sm-2 mb-2">
             <Card className={classes.root}>
                 <CardHeader
                     avatar={

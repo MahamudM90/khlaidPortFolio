@@ -8,7 +8,7 @@ const Exprience = () => {
     return (
         <div className="container mb-5">
             <h2 className="text-uppercase mb-3">Projects</h2>
-            <div className="row">
+            <div className="row d-sm-flex justify-content-sm-center align-items-sm-center d-flex justify-content-center align-items-center">
                 {
                     experience.map((exprience, index) => <ExpricenceCard exprience={exprience} id={index} />)
                 }

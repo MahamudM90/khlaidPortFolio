@@ -15,8 +15,6 @@ const ProficiancyLottie = () => {
         <div>
             <Lottie options={defaultOptions}
                 className="proficiancyLottie"
-                width={500}
-                height = {500}
             />
         </div>
     );

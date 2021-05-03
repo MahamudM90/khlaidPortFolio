@@ -22,7 +22,7 @@ const Skill = () => {
                         <div className="softwereSkills mt-3">
                             <div className="row">
                                 {
-                                    skills.softwareSkills.map((skill, index) => <div id={index} className="col-md-2 col-sm-2">
+                                    skills.softwareSkills.map((skill, index) => <div id={index} className="col-md-2 col-sm-2 col-2">
                                         <span id="skillIcons">{skill.icon}</span>
                                         <p>{skill.skillName}</p>
                                     </div>)
