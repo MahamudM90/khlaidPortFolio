@@ -1,6 +1,12 @@
 import library from './FontAwsomeLibery';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDatabase, faFire } from '@fortawesome/free-solid-svg-icons';
+import pustok from './Assest/imges/pustokP.png'
+import emaJohn from './Assest/imges/emajhonP.png'
+import didi from './Assest/imges/didi.png'
+import espn from './Assest/imges/espn.png'
+import crickTime from './Assest/imges/bdCricTIme.png'
+
 library()
 
 
@@ -11,7 +17,7 @@ const greeting = {
   subTitle:
     "A passionate Frontend Software Developer 🚀 having an experience of designing and building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
   resumeLink:
-    "https://drive.google.com/uc?export=download&id=1WaZAya5VttcqUSpsQ0kAodP-0Jo_RvJz",
+    "https://drive.google.com/uc?export=download&id=1wx0LqYhXhk2Eq0iVDMvf5Y3AwT5Dx_51",
   displayGreeting: true
 };
 // social media section
@@ -98,31 +104,72 @@ const techStack = [
 
 
 const experience = [
-
   {
     role: "Software Engineer",
     company: "Pustok",
-    companylogo: " ",
+    companylogo:pustok,
+    img: pustok,
     date: "20 Feb 2021 – 25 Feb 2021",
+    live: "https://pustok-shakil.web.app/",
+    github: "https://github.com/shakil51298/Pustok-Client",
     desc:
       "I have maintained the backend and api",
   },
   {
-    role: "Designer and Developer",
-    company: "Didi Chaoxing",
-    companylogo: "",
-    date: "January 2021 – February 2021",
+    role: "Software Engineer",
+    company: "Ema-john",
+    companylogo: emaJohn,
+    img: emaJohn,
+    date: "20 Feb 2021 – 25 Feb 2021",
+    live: "https://ema-jhon-final-21.web.app/",
+    github: "https://github.com/shakil51298/Ema-jhon-react",
     desc:
-      "I lead myself building the API for this Ride Sharing application"
+      "I have maintained the backend and api",
   },
   {
-    role: "Designer",
-    company: "Bd Crick time",
-    companylogo: "",
-    date: "November 2018 – July 2019",
+    role: "Software Engineer",
+    company: "DIDI",
+    companylogo: didi,
+    img: didi,
+    date: "20 Feb 2021 – 25 Feb 2021",
+    live: "https://final-assignment-66726.web.app/",
+    github: "https://github.com/shakil51298/DIDI_CAOXING",
     desc:
-      "I have designed all of this site's"
-  }
+      "I have maintained the backend and api",
+  },
+  {
+    role: "Software Engineer",
+    company: "ESPN",
+    companylogo: espn,
+    img: espn,
+    date: "20 Feb 2021 – 25 Feb 2021",
+    live: "https://assignment-8-phero.netlify.app/",
+    github: "https://github.com/shakil51298/FAKE_ESPN",
+    desc:
+      "I have maintained the backend and api",
+  },
+  {
+    role: "Software Engineer",
+    company: "Pustok",
+    companylogo: "",
+    img: pustok,
+    date: "20 Feb 2021 – 25 Feb 2021",
+    live: "https://pustok-shakil.web.app/",
+    github: "https://github.com/shakil51298/Pustok-Client",
+    desc:
+      "I have maintained the backend and api",
+  },
+  {
+    role: "Software Engineer",
+    company: "Bd Crick Time",
+    companylogo: crickTime,
+    img: crickTime,
+    date: "20 Feb 2021 – 25 Feb 2021",
+    live: "https://assignment-s07.netlify.app/",
+    github: "https://github.com/shakil51298/Bd-CrickTime",
+    desc:
+      "I have maintained the backend and api",
+  },
 ];
 const blogs = {
   title: "Blogs",
@@ -142,16 +189,16 @@ const blogs = {
 };
 //  Contact form
 const contactData = {
-  title : "Contact Me",
-  desc : 'DISCUSS OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.',
-  phone : "+86 18579191038 (whatsapp/wechat)",
-  email : "zikaiwen02@gmail.com",
+  title: "Contact Me",
+  desc: 'DISCUSS OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.',
+  phone: "+86 18579191038 (whatsapp/wechat)",
+  email: "zikaiwen02@gmail.com",
 }
 
 // footer data
 const footerData = {
-  desc : "This Template by Md Khalid Hossain",
-  url : "www.github.com/shakil51298"
+  desc: "This Template by Md Khalid Hossain",
+  url: "www.github.com/shakil51298"
 }
 export {
   socialMediaLinks,

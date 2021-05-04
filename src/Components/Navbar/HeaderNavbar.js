@@ -9,14 +9,14 @@ const HeaderNavbar = () => {
     return (
         <Navbar className="myNav" bg="dark" expand="lg" >
             <div className="container">
-                <Navbar.Brand href="#home" className="navbarColors brand">
+                <Navbar.Brand href="#home" className="brand">
                     <h4>
-                    <span>&#60;</span> MD KHALID HOSSAON &#47; <span>&#62;</span>
+                        <span>&#60;</span> MD KHALID HOSSAON &#47; <span>&#62;</span>
                     </h4>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ color: 'white' }}>
-                    <FontAwesomeIcon icon={faBars} />
-                </Navbar.Toggle>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <FontAwesomeIcon className="text-white" icon={faBars} />
+                </button>
 
 
                 <Navbar.Collapse id="basic-navbar-nav">

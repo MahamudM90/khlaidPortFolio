@@ -18,7 +18,7 @@ body{
     --primary-gamil : rgb(204, 72, 72);
     --primary-gray : rgb(194, 191, 191);
 }
-
+/* Nvaigation Bar */
 .navbarFonts{
     text-transform: uppercase;
 }
@@ -34,8 +34,6 @@ body{
 .navbarColors{
     color: var(--primary-white) !important;
 }
-
-
 
 .tsparticles-canvas-el{
   position: absolute;
@@ -63,14 +61,17 @@ body{
 #linkedin :hover {
   color: var(--primary-linkedin);
 }
-#twitter :hover {
+.icons > #twitter :hover {
   color: var(--primary-twitter);
 }
-#stackOverflow:hover {
-  color: var(--primary-orange);
+.icons > #stackOverflow :hover{
+  color:var(--primary-orange);
 }
-#gamil:hover {
-  color: var(--primary-gamil);
+.icons > #gamil :hover {
+  color:var(--primary-green);
+}
+.icons > #medium :hover {
+  color:var(--primary-black)
 }
 
 /*--------------- brandds */
@@ -85,28 +86,7 @@ body{
   max-width: 31.25rem;
   letter-spacing: 0.0625rem;
 }
-/*  ------------media quary - */
 
-@media(max-width : 1024px) {
-  .main-info h1{ 
-    font-size: 3.2rem;
-  }
-  .brand > h4{
-    border-top: 0.1875rem solid var(--primary-dark);
-    color: var(--primary-green);
-    font-size: 1.9rem;
-    font-family: "Dancing Script";
-  }
-  .greetingSubtitle{
-    font-size: 1.5rem;
-    max-width: 30.25rem;
-    letter-spacing: 0.0625rem;
-  }
-  .myNav button {
-    font-size: 1rem;
-    padding: 0.8rem;
-  }
-}
 /* skill icons  */
 #skillIcons{
   font-size: 2rem;
@@ -127,9 +107,11 @@ body{
   text-decoration: none;
   text-shadow:2px 2px 5px var(--primary-gray);
 }
+
+/*  media query */
 @media(max-width : 425px) {
   .main-info h1{ 
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .brand > h4{
     border-top: 0.1875rem solid var(--primary-dark);
@@ -142,10 +124,47 @@ body{
     max-width: 20.25rem;
     letter-spacing: 0.0625rem;
   }
+  .icons > a {
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+  .Padding425{
+    margin-left:50px;
+    margin-top:20px;
+
+  }
 }
+
+
 @media(max-width : 320px) {
   .main-info h1{ 
     font-size: 1.5rem;
   }
+  .icons > a {
+    padding: 5px;
+    font-size: 1.3rem;
+  }
 }
 
+/*  ------------media quary - */
+
+@media(min-width : 1024px) {
+  .main-info h1{ 
+    font-size: 3.2rem;
+  }
+  .brand > h4{
+    border-top: 0.1875rem solid var(--primary-dark);
+    color: var(--primary-orange);
+    font-size: 1.3rem;
+    font-family: "Dancing Script";
+  }
+  .greetingSubtitle{
+    font-size: 1.5rem;
+    max-width: 30.25rem;
+    letter-spacing: 0.0625rem;
+  }
+  .myNav button {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}

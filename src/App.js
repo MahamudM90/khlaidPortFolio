@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import HeaderNavbar from './Components/Navbar/HeaderNavbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,6 +11,8 @@ import Blogs from './Components/Blogs/Blogs';
 import ContactMe from './Components/ContactMe/ContactMe';
 import Footer from './Components/Footer/Footer';
 import ContactForm from './Components/ContactForm/ContactForm';
+import Gohome from './Components/GoHome/Gohome';
+import Main from './Main/Main';
 
 
 function App() {
@@ -46,6 +47,8 @@ function App() {
       <ContactMe/>
       <ContactForm/>
       <Footer/>
+      <Gohome/>
+      <Main/>
     </div>
   );
 }
