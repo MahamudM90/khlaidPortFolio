@@ -140,14 +140,19 @@ const blogs = {
     }
   ]
 };
-
+//  Contact form
 const contactData = {
   title : "Contact Me",
   desc : 'DISCUSS OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.',
-  phone : "+86 18579191038",
+  phone : "+86 18579191038 (whatsapp/wechat)",
   email : "zikaiwen02@gmail.com",
 }
 
+// footer data
+const footerData = {
+  desc : "This Template by Md Khalid Hossain",
+  url : "www.github.com/shakil51298"
+}
 export {
   socialMediaLinks,
   greeting,
@@ -155,5 +160,6 @@ export {
   techStack,
   experience,
   blogs,
-  contactData
+  contactData,
+  footerData
 }

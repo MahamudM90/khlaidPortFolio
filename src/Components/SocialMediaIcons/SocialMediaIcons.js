@@ -7,7 +7,7 @@ libery();
 
 const SocialMediaIcons = () => {
     return (
-        <div className="icons d-flex">
+        <div className="icons d-flex justify-content-center align-items-center">
             {
                 socialMediaLinks.github && <a className="text-dark" id="githubs" href={socialMediaLinks.github}
                     target="_blank"
