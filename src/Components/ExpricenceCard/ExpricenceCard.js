@@ -66,16 +66,13 @@ const ExpricenceCard = ({ exprience }) => {
                     </CardContent>
                     <div className="d-flex justify-content-center align-items-center">
                         <div className="m-1">
-                            <button className="mb-2 btn btn-outline-warning">Details</button>
-                        </div>
-                        <div className="m-1">
                             <button className="mb-2 btn btn-outline-warning">
-                                <a href={exprience.live}>Live</a>
+                                <a className="exBtn" href={exprience.live}>Live</a>
                             </button>
                         </div>
                         <div className="m-1">
                             <button className="mb-2 btn btn-outline-warning">
-                                <a href={exprience.github}>
+                                <a className="exBtn" href={exprience.github}>
                                     <FontAwesomeIcon icon={['fab', 'github']} />
                                 </a>
                             </button>

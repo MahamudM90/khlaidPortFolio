@@ -28,11 +28,11 @@ function App() {
                 value_area: 1000
               }
             },
-            shape : {
-              type : 'circle' , 
-              stroke : {
-                width  : 6, 
-                color : "#f9ab00"
+            shape: {
+              type: 'circle',
+              stroke: {
+                width: 6,
+                color: "#f9ab00"
               }
             }
           }
@@ -40,16 +40,16 @@ function App() {
       />
       <HeaderNavbar />
       <Header />
-      <Skill/>
-      <SkillProgreess/>
-      <Exprience/>
-      <Blogs/>
-      <ContactMe/>
-      <ContactForm/>
-      <Footer/>
-      <Gohome/>
-      <Main/>
-    </div>
+      <Skill />
+      <SkillProgreess />
+      <Exprience />
+      <Blogs />
+      <ContactMe />
+      <ContactForm />
+      <Footer />
+      <Gohome />
+      
+        </div>
   );
 }
 

@@ -134,6 +134,15 @@ body{
 
   }
 }
+/* navbar toogle icon  */
+.navbar-toggler{
+  border: 1px solid red;
+}
+/* exprience link Btn */
+.exBtn {
+  color: var(--primary-black);
+  text-decoration: none;
+}
 
 
 @media(max-width : 320px) {

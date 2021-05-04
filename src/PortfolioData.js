@@ -200,6 +200,11 @@ const footerData = {
   desc: "This Template by Md Khalid Hossain",
   url: "www.github.com/shakil51298"
 }
+// vc links
+const remuseLInk = {
+  link : "https://drive.google.com/file/d/1wx0LqYhXhk2Eq0iVDMvf5Y3AwT5Dx_51/view?usp=sharing"
+}
+
 export {
   socialMediaLinks,
   greeting,
@@ -208,5 +213,6 @@ export {
   experience,
   blogs,
   contactData,
-  footerData
+  footerData,
+  remuseLInk
 }
