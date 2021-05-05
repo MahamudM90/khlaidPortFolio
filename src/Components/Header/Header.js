@@ -15,7 +15,7 @@ const Header = () => {
             <div className="main-info">
                 <h4 className="text-warning text-start"> {greeting.title}</h4>
                 <h1 className="text-warning">
-                    <span style={{ color: "red" }}>{greeting.username}</span>
+                    <span className="animationColor">{greeting.username}</span>
                     <span className="weave-imoji">👋</span>
                 </h1>
                 <Typed

@@ -13,7 +13,7 @@ library()
 //  gretting option
 const greeting = {
   username: "Md Khalid Hossain",
-  title: "Hi, All",
+  title: "Hi, I'm",
   subTitle:
     "A passionate Frontend Software Developer 🚀 having an experience of designing and building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
   resumeLink:
