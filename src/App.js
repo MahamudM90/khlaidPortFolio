@@ -3,7 +3,6 @@ import HeaderNavbar from './Components/Navbar/HeaderNavbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header'
 import Particles from 'react-particles-js';
-import DisplayLotti from './Components/DisplayLotti/DisplayLotti';
 import Skill from './Components/Skills/Skill';
 import SkillProgreess from './Components/SkillProgreess/SkillProgreess';
 import Exprience from './Components/Exprience/Exprience';
@@ -12,7 +11,7 @@ import ContactMe from './Components/ContactMe/ContactMe';
 import Footer from './Components/Footer/Footer';
 import ContactForm from './Components/ContactForm/ContactForm';
 import Gohome from './Components/GoHome/Gohome';
-import Main from './Main/Main';
+import MassengerMsg from './Components/MassengerMsg/MassengerMsg';
 
 
 function App() {
@@ -48,8 +47,8 @@ function App() {
       <ContactForm />
       <Footer />
       <Gohome />
-      
-        </div>
+      <MassengerMsg />
+    </div>
   );
 }
 

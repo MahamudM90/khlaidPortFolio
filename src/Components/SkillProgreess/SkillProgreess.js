@@ -4,8 +4,8 @@ import SkillBar from 'react-skillbars';
 import { techStack } from '../../PortfolioData';
 import ProficiancyLottie from '../DisplayLotti/ProficiancyLottie';
 import Fade from "react-reveal"
+
 const SkillProgreess = () => {
-    console.log(techStack);
     const skills = [
         { type: "Java", level: 20 },
         { type: "Javascript", level: 75 },

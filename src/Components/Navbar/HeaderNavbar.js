@@ -1,8 +1,6 @@
 import React from 'react';
-import { Button, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import {Nav, Navbar } from 'react-bootstrap';
 import './HeaderNavbar.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { remuseLInk } from '../../PortfolioData';
 
 
@@ -19,10 +17,7 @@ const HeaderNavbar = () => {
                     </h4>
                 </Navbar.Brand>
 
-
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
-
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto navbarFonts">
                         <Nav.Link href="#contact" className="navbarColors ml-3 link">Contact me</Nav.Link>
