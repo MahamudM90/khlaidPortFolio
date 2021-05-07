@@ -16,7 +16,7 @@ import MassengerMsg from './Components/MassengerMsg/MassengerMsg';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Particles
         params={{
           particles: {

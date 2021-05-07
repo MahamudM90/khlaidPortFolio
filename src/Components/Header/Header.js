@@ -3,14 +3,22 @@ import './Header.css'
 import Typed from 'react-typed';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import { greeting, socialMediaLinks } from '../../PortfolioData';
+import { greeting, imagesList, socialMediaLinks } from '../../PortfolioData';
 import libery from '../../FontAwsomeLibery'
+import AnimatedBg from "react-animated-bg";
 
 
 libery();
 
 const Header = () => {
     return (
+        <AnimatedBg
+        colors ={imagesList}
+        duration={2}
+        delay={5}
+        timingFunction="linear"
+        className="animated-section animated-images"
+        >
         <div className="header-wrapper" id="home">
             <div className="main-info">
                 <h4 className="text-warning text-start"> {greeting.title}</h4>
@@ -97,6 +105,7 @@ const Header = () => {
                 </div>
             </div>
         </div>
+    </AnimatedBg >
     );
 };
 

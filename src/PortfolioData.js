@@ -6,6 +6,8 @@ import emaJohn from './Assest/imges/emajhonP.png'
 import didi from './Assest/imges/didi.png'
 import espn from './Assest/imges/espn.png'
 import crickTime from './Assest/imges/bdCricTIme.png'
+import bgCode from "./Assest/imges/code.png"
+import desctop from "./Assest/imges/desktop-1245714.jpg"
 
 library()
 
@@ -17,7 +19,7 @@ const greeting = {
   subTitle:
     "A passionate Frontend Software Developer 🚀 having an experience of designing and building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
   resumeLink:
-    "https://drive.google.com/uc?export=download&id=1wx0LqYhXhk2Eq0iVDMvf5Y3AwT5Dx_51",
+    "https://drive.google.com/uc?export=download&id=1Zrq8fOcgnhl0PEj8MKwcb59b7_NVY5JW",
   displayGreeting: true
 };
 // social media section
@@ -202,9 +204,17 @@ const footerData = {
 }
 // vc links
 const remuseLInk = {
-  link : "https://drive.google.com/file/d/1wx0LqYhXhk2Eq0iVDMvf5Y3AwT5Dx_51/view?usp=sharing"
+  link : "https://drive.google.com/file/d/1Zrq8fOcgnhl0PEj8MKwcb59b7_NVY5JW/view?usp=sharing"
 }
+//  animated bg images 
+const imagesList = [
+  'url("https://i.ibb.co/5LbrxSL/desktop-1245714.jpg")',
+  'url("https://i.ibb.co/9sGHj75/code.png")',
+  'url("https://i.ibb.co/qyp9fpm/third.jpg")',
+];
 
+
+// export all 
 export {
   socialMediaLinks,
   greeting,
@@ -214,5 +224,6 @@ export {
   blogs,
   contactData,
   footerData,
-  remuseLInk
+  remuseLInk,
+  imagesList
 }

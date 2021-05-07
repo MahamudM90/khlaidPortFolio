@@ -4,12 +4,13 @@
 :root{
     --primary-color : rgb(255, 255, 255);
 }
+
 .header-wrapper{
     position: relative;
     height: 94.5vh;
     background-size: cover;
     background-position: center;
-    background:url(../../Assest/imges/code.png);
+    /* background:url(../../Assest/imges/code.png); */
 }
 .main-info{
     font-size: 3.5rem;
@@ -25,6 +26,15 @@
     text-align: center;
     font-family: "Roboto Condensed" sans-serif;
 }
+/* animated bg */
+.animated-section {
+  height: 94.5vh;
+}
+.animated-images {
+  background-size: cover;
+}
+
+
 .main-info h1{
     text-transform: uppercase;
 }
